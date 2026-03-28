@@ -1,0 +1,28 @@
+请求 → router → handler → service →（dao）→ 返回
+🧩 handler（接口层）
+
+👉 负责：
+
+接收请求
+参数解析
+返回 JSON
+
+🧩 service（业务层）
+
+👉 负责：
+
+业务逻辑
+数据处理
+
+🧩 service（业务层）
+
+👉 负责：
+
+业务逻辑
+数据处理
+
+CREATE TABLE user (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    age INT
+);
